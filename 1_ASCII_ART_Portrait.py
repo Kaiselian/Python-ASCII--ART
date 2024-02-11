@@ -22,7 +22,7 @@ def pixels_to_ASCII(image):
     characters = "".join([ASCII_CHARS[pixel // 25] for pixel in pixels])
     return characters
 
-def main(new_width=650, new_height=250):
+def main(new_width=125, new_height=650):
     # Attempt to open object from user input
     path = input("Enter a Valid Path: \n")
     try:
